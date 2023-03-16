@@ -1,16 +1,16 @@
 #pragma once
-#include "Header.h"
 
 class Dynamic {
 public:
 	Dynamic();
-	Dynamic(int size);
 	~Dynamic();
 
-	void Pop();
-	void Push();
-	void Print();
-	int& operator[](int index);
-private:
+	void PushBack(int Data);
+	void PrintArray();
+	int SearchArray(int index);
 
+private:
+	int* m_array;
+	int m_size;
+	int m_used;
 };

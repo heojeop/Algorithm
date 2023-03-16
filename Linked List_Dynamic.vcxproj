@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dynamic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Search.cpp" />
