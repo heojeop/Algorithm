@@ -15,5 +15,7 @@ class DoubleLinkedList{
 
 
     private:
-    STDLikedList<Type>* head;
+    STDLikedList<Type>* Head;
+    STDLikedList<Type>* Back;
+
 };
