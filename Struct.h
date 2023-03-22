@@ -10,7 +10,7 @@ struct STLinkedList
 template<typename Type> struct STDLikedList
 {
 	Type Data;
-	STDLikedList* Back;
+	STDLikedList* Prev;
 	STDLikedList* Next;
 };
 
