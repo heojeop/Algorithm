@@ -143,14 +143,12 @@
     <ClCompile Include="Dynamic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="Search.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoubleLinkedList.h" />
     <ClInclude Include="Dynamic.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Search.h" />
     <ClInclude Include="Struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

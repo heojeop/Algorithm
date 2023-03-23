@@ -1,15 +1,15 @@
 #include "LinkedList.h"
 
 LinkedList::LinkedList() {
-	head = NULL; // 생성시 HEAD NULL 초기화
+	Head = NULL; // 생성시 HEAD NULL 초기화
 }
 
 void LinkedList::FrontInsert(int Data) {			//노드 전방에 최신 데이터 삽입
 	STLinkedList* NewDataNode = new STLinkedList();//새로운 노드 객체 생성
 	
 	NewDataNode->Data = Data;
-	NewDataNode->Next = head;
-	head = NewDataNode;
+	NewDataNode->Next = Head;
+	Head = NewDataNode;
 
 }
 
@@ -17,12 +17,12 @@ void LinkedList::EndInsert(int Data){				//데이터 삽입 정의
 	STLinkedList* NewDataNode = new STLinkedList(); //새로운 노드 생성
 	NewDataNode->Data = Data;						//생성 된 객체의 데이터를 Data 인자로 삽입
 	NewDataNode->Next = NULL;						//새롭게 생성 된 객체의 다음은 없으므로 NULL 로 정의
-	if (head == NULL) {								//만약 head 가 NULL 이면 ( 리스트가 비어 있으면 )
-		head = NewDataNode;							//Head 포인터를 새로 삽입한 객체로 변경
+	if (Head == NULL) {								//만약 head 가 NULL 이면 ( 리스트가 비어 있으면 )
+		Head = NewDataNode;							//Head 포인터를 새로 삽입한 객체로 변경
 		return;
 	}
 
-	STLinkedList* Current = head;					//현재 HEAD 의 위치를 가져옴
+	STLinkedList* Current = Head;					//현재 HEAD 의 위치를 가져옴
 
 	while (Current->Next != NULL)					//현재 HEAD 의 위치에 만약 다음 노드가 NULL 이 아니라면
 	{
@@ -35,7 +35,7 @@ void LinkedList::EndInsert(int Data){				//데이터 삽입 정의
 
 
 void LinkedList::PrintList() {
-	STLinkedList* Current = head;					//현재 HEAD를 가져옴
+	STLinkedList* Current = Head;					//현재 HEAD를 가져옴
 	
 	printf("LinkedList Print = ");
 	while (Current != NULL)							//가져온 노드의 HEAD가 NULL이 아니라면
@@ -49,7 +49,7 @@ void LinkedList::PrintList() {
 }
 
 int LinkedList::SearchList(int index) {
-	STLinkedList* Current = head;
+	STLinkedList* Current = Head;
 
 	while (Current != NULL){
 

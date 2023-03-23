@@ -1,9 +1,2 @@
-﻿  DoubleLinkedList.cpp
-  Dynamic.cpp
-  main.cpp
-  LinkedList.cpp
-  Search.cpp
-  Generating Code...
-D:\repository\Algorithm\LinkedList.cpp(63): warning C4715: 'LinkedList::SearchList': not all control paths return a value
-D:\repository\Algorithm\Dynamic.cpp(62): warning C4715: 'Dynamic::SearchArray': not all control paths return a value
+﻿  main.cpp
   Linked List_Dynamic.vcxproj -> D:\repository\Algorithm\Debug\Linked List_Dynamic.exe

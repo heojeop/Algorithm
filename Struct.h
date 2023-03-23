@@ -6,12 +6,12 @@ struct STLinkedList
 	STLinkedList* Next;
 };
 
-
-template<typename Type> struct STDLikedList
+template<class Type> 
+struct DLNode
 {
-	Type Data;
-	STDLikedList* Prev;
-	STDLikedList* Next;
+	Type Data = 0;
+	DLNode<Type>* Prev = 0;
+	DLNode<Type>* Next = 0;
 };
 
 

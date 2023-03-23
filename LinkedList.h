@@ -10,5 +10,5 @@ public:
 	void PrintList();
 	int SearchList(int index);
 private:
-	STLinkedList* head;
+	STLinkedList* Head;
 };
