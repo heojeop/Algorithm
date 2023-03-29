@@ -5,4 +5,5 @@
 #include "LinkedList.h"
 #include "DoubleLinkedList.h"
 #include "Dynamic.h"
+#include "BinarySearch.h"
 #include "Struct.h"
