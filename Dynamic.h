@@ -7,6 +7,8 @@ public:
 
 	void PushBack(int Data);
 	void PrintArray();
+	int ArrayCount();
+	int MSearch(int index);
 	int SearchArray(int index);
 
 private:

@@ -20,7 +20,7 @@ void Dynamic::PushBack(int Data) {			//배열가장 뒤에 원소를 삽입
 
 	if (m_size == m_used) {					//만약 사이즈와 현재 데이터의 양이 같다면
 		int* Temp = new int[m_size];		//임시 객체 Temp 를 현재 데이터 크기 만큼 생성
-		printf("배열이 늘어났습니다.\n"); 
+		//printf("배열이 늘어났습니다.\n"); 
 		for (int i = 0; i < m_size; i++){	
 			Temp[i] = m_array[i];			//m_size 만큼 i 를 증가시켜 m_array 에 있는 데이터를 임시 객체 Temp 로 이동
 		}
@@ -45,6 +45,17 @@ void Dynamic::PrintArray() {				// 전체 배열 출력
 		printf("%d ", m_array[i]);
 	}
 	printf("\n");
+}
+
+int Dynamic::ArrayCount() {
+
+	return m_used;
+}
+
+int Dynamic::MSearch(int index) {
+	int m = m_array[index];
+
+	return m;
 }
 
 int Dynamic::SearchArray(int index) {

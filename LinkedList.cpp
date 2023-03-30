@@ -62,6 +62,32 @@ int LinkedList::SearchList(int index) {
 	}
 }
 
+int LinkedList::GetLength() {
+	
+	STLinkedList* Current = Head;
+	int Count = 0;
+	while (Current != NULL)
+	{
+		Current = Current->Next;
+		Count++;
+	}
+
+	return Count;
+}
+
+int LinkedList::GetValue(int index) {
+
+	STLinkedList* Current = Head;
+	int Count = 0;
+
+	while (Count < index)
+	{
+		Current = Current->Next;
+		Count++;
+	}
+
+	return Current->Data;
+}
 
 
 
