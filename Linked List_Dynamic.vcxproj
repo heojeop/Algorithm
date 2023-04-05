@@ -143,6 +143,7 @@
     <ClCompile Include="Dynamic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearch.h" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Dynamic.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="Struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
