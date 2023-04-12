@@ -143,6 +143,7 @@
     <ClCompile Include="Dynamic.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +152,7 @@
     <ClInclude Include="Dynamic.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="Struct.h" />
   </ItemGroup>

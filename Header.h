@@ -1,6 +1,7 @@
 #pragma once
 #include <cstdio>
 #include <iostream>
+#include <algorithm>
 #include "Search.h"
 #include "LinkedList.h"
 #include "DoubleLinkedList.h"
@@ -8,3 +9,4 @@
 #include "BinarySearch.h"
 #include "Struct.h"
 #include "QuickSort.h"
+#include "MergeSort.h"

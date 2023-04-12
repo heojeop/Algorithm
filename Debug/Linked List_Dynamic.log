@@ -1,3 +1,6 @@
 ﻿  main.cpp
 D:\repository\Algorithm\BinarySearch.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\repository\Algorithm\main.cpp(15,20): warning C4018: '<': signed/unsigned mismatch
+D:\repository\Algorithm\main.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+D:\repository\Algorithm\main.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
   Linked List_Dynamic.vcxproj -> D:\repository\Algorithm\Debug\Linked List_Dynamic.exe
