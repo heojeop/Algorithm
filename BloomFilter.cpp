@@ -27,18 +27,3 @@ class BloomFilter{
 
 
 };
-
-int main(void){
-
-	BloomFilter bf(100);
-
-	bf.insert(10);
-	bf.insert(20);
-	bf.insert(30);
-	
-	
-
-	
-	return 0;
-}
-
